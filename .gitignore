@@ -1,0 +1,8 @@
+# This file tells Git which files and folders to ignore.
+
+# Ignore the .env file to keep your secret token private.
+.env
+
+# Ignore the node_modules folder, which contains all the dependencies.
+# This folder can be very large and is easily recreated by running "npm install".
+node_modules/
