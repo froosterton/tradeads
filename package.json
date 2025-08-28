@@ -1,0 +1,20 @@
+{
+  "name": "discord-poster-bot",
+  "version": "1.0.0",
+  "description": "A simple Discord bot to post a message to a channel every 16 minutes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
