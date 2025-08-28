@@ -21,7 +21,7 @@ const client = new Client({
     checkUpdate: false,
 });
 
-const CHANNEL_ID = '430203025659789343';
+const CHANNEL_ID = '442709710408515605';
 const MESSAGE = '# DM OFFERS @https://media.discordapp.net/attachments/442709710408515605/1410457162731356170/image.png?ex=68b11618&is=68afc498&hm=5251dd95e09ac1f37716763412c19f51cc49f61341b0d51db086a1bdbb6fcc9b&=&format=webp&quality=lossless&width=197&height=231';
 const INTERVAL = (10 * 60 + 30) * 1000; // 10 minutes and 30 seconds in milliseconds
 
