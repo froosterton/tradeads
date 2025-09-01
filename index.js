@@ -21,9 +21,11 @@ const client = new Client({
     checkUpdate: false,
 });
 
-const CHANNEL_ID = '442709710408515605';
-const MESSAGE = '# DM OFFERS https://media.discordapp.net/attachments/1408922934222917702/1411769622499299461/image.png?ex=68b5dc6b&is=68b48aeb&hm=c419229f42d1e5883e7e5c96dbe0e431775063f73dccb119186e9b42609b220a&=&format=webp&quality=lossless&width=595&height=318';
-const INTERVAL = (10 * 60 + 30) * 1000; // 10 minutes and 30 seconds in milliseconds
+const MESSAGE_TEXT = '# DM OFFERS';
+const IMAGE_URL = 'https://cdn.discordapp.com/attachments/<id>/<id>/image.png'; // no query params
+
+await channel.send({ content: MESSAGE_TEXT, files: [IMAGE_URL] });
+// or, if you must use a link: await channel.send(`${MESSAGE_TEXT} ${IMAGE_URL}`);
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
